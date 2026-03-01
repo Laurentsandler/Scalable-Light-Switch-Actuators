@@ -46,18 +46,6 @@ The case was designed in Onshape — as small as possible while fitting all comp
                                              --ESP-NOW--> [Module 5 (ESP32-C3)] → Servo 5
 ```
 
-## Hardware Requirements
-
-| Component | Specification | Notes |
-|-----------|---------------|-------|
-| Module MCU | ESP32-C3-WROOM-02 | ~18×20mm, ~5µA deep sleep, Wi-Fi + BLE |
-| Base MCU | ESP32 Dev Board | Always-on, handles Blynk & ESP-NOW relay |
-| Servo | SG90 | 3 wires soldered to PCB bottom |
-| Battery | LiPo (fits SG90 footprint) | High capacity, fits behind PCB+servo |
-| Charging IC | On-board (USB-C) | Power path management, 5V→3.3V step-down |
-| USB-Serial | CH340 | On-board for programming |
-| Button | Tactile | Physical switch toggle |
-
 ## Software Dependencies
 
 Install these libraries via Arduino IDE Library Manager:
@@ -94,12 +82,6 @@ uint8_t module2MAC[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 3. Set each button to **Push mode**, Integer **0/1**
 4. Each V0–V4 button controls Module 1–5 respectively
 
-### Physical Button
-- Press the button on any module to manually toggle the light switch
-
-### LED Status Indicators
-- **Solid**: Connected and idle
-- **Blinking**: Receiving command / moving servo
 
 ## API Services Used
 
@@ -108,17 +90,6 @@ uint8_t module2MAC[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 
 ## BOM
 
-| Component | Footprint | Quantity | Notes | Est. Price |
-|-----------|-----------|----------|-------|------------|
-| ESP32-C3-WROOM-02 | SMD Module | 1 per module | ~18×20mm | ~$3 |
-| SG90 Servo | Through-hole wires | 1 per module | Standard micro servo | ~$2 |
-| LiPo Battery | Fits SG90 footprint | 1 per module | High capacity | ~$5 |
-| CH340 USB-Serial | SMD | 1 per module | For programming | ~$0.50 |
-| USB-C Connector | SMD | 1 per module | For charging | ~$0.30 |
-| Tactile Button | SMD | 1 per module | Physical toggle | ~$0.10 |
-| ESP32 Dev Board | Through-hole | 1 (base only) | Always-on base station | ~$5 |
-
-## Bill of Materials (BOM)
 
 | ID | Name | Designator | Footprint | Quantity | Manufacturer Part | Manufacturer | Supplier | Supplier Part | Price | Pins | 3D Model | Contributor | JLCPCB Part Class | Value | Link |
 |----|------|------------|-----------|----------|-------------------|--------------|----------|---------------|-------|------|----------|-------------|-------------------|-------|------|
