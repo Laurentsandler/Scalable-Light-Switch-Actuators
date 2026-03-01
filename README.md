@@ -22,7 +22,7 @@ The custom PCB was designed using EasyEDA. The PCB dimensions are 32 × 26 mm �
 
 The case was designed in Onshape — as small as possible while fitting all components, with a snap-on lid and space for wires.
 
-*(Images to be added to the Images/ folder)*
+## Onshape project link: https://cad.onshape.com/documents/06b28d6b3b71f47cc2911267/w/042815538e1a38e5d56684fa/e/e83a82b9ce472ea6086be9af?renderMode=0&uiState=69a43da28d82e5f4f3067d34
 
 ## Features
 
