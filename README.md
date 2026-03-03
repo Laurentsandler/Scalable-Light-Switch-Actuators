@@ -129,6 +129,8 @@ uint8_t module2MAC[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 | 17 | R0603 | R9 | R0603 | 1 | 0603WAD1001T5E | UNI-ROYAL | LCSC | C51218 | 0.007 | 2 | R0603 | lcsc | Extended Part | 1kΩ | https://lcsc.com/eda_search?q=C51218&%26type=1&ref=editor |
 | 18 | LED0805-R-RD | LED2 | LED0805-R-RD | 1 | 17-215UYC/S530-A3/TR8 | EVERLIGHT | LCSC | C72036 | 0.054 | 2 | LED0805-RD | lcsc | Extended Part | | https://lcsc.com/eda_search?q=C72036&%26type=1&ref=editor |
 | 19 | SG90 Micro Servo Motor 9G | | N/A | 5 | SG90 | SopwMap | Amazon | B0DP3VG59G | 11.99 | 3 | | | | | https://www.amazon.com/dp/B0DP3VG59G |
+| 20 | 582728 400mAh 3.7V LiPo Battery | | N/A | 1 | 582728 | Rainbow Battery Store | AliExpress | 1005007648840057 | 5.31 | 2 | | | | | https://www.aliexpress.com/item/1005007648840057.html |
+| 21 | ESP32 DevKitC WIFI+Bluetooth Development Board (ESP32-32U) | | N/A | 1 | ESP32-32U | YouKeyi Store | AliExpress | 1005008949552110 | 5.09 | | | | | https://www.aliexpress.com/item/1005008949552110.html |
 
 ## License
 
