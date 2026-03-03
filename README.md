@@ -16,13 +16,30 @@ The custom PCB was designed using EasyEDA. The PCB dimensions are 32 × 26 mm �
 
 ### PCB Layout & 3D Renders
 
-*(Images to be added to the PCB/ folder)*
+<img width="705" height="845" alt="image" src="https://github.com/user-attachments/assets/02a7d980-9cd9-42ca-b489-f4b5d95e7b9a" />
+<img width="705" height="845" alt="image" src="https://github.com/user-attachments/assets/d8565e2a-75a2-4d45-8789-cd2af2e62995" />
+<img width="705" height="845" alt="image" src="https://github.com/user-attachments/assets/318e321e-d93b-4aa1-a08c-ff579ac4a2ea" />
+
 
 ### Case
 
 The case was designed in Onshape — as small as possible while fitting all components, with a snap-on lid and space for wires.
 
+<img width="1368" height="1072" alt="image" src="https://github.com/user-attachments/assets/65cb1400-1bab-4378-80f6-4633a3bccadf" />
+<img width="1552" height="1234" alt="image" src="https://github.com/user-attachments/assets/7d52b6f8-f530-4bfa-adb7-00ff565dbac0" />
+
+
+
 ## Onshape project link: https://cad.onshape.com/documents/06b28d6b3b71f47cc2911267/w/042815538e1a38e5d56684fa/e/e83a82b9ce472ea6086be9af?renderMode=0&uiState=69a43da28d82e5f4f3067d34
+
+### 3d mockups
+
+<img width="1552" height="1234" alt="image" src="https://github.com/user-attachments/assets/18cc6f26-a934-4de5-a8de-564f1d644599" />
+<img width="1552" height="1234" alt="image" src="https://github.com/user-attachments/assets/542827b6-aa6c-4765-b5f2-80a8c4169754" />
+<img width="1552" height="1234" alt="image" src="https://github.com/user-attachments/assets/81ba60f7-362b-48e3-9950-b7a97d8cbdaa" />
+<img width="1552" height="1234" alt="image" src="https://github.com/user-attachments/assets/daf7cc10-0c4c-4fe1-acea-8b414793bbe7" />
+
+
 
 ## Features
 
@@ -39,7 +56,7 @@ The case was designed in Onshape — as small as possible while fitting all comp
 ## System Architecture
 
 ```
-[Blynk App] → [Base ESP32 (WiFi)] --ESP-NOW--> [Module 1 (ESP32-C3)] → Servo 1
+[Blynk App] → [Base ESP32 (WiFi)]            --ESP-NOW--> [Module 1 (ESP32-C3)] → Servo 1
                                              --ESP-NOW--> [Module 2 (ESP32-C3)] → Servo 2
                                              --ESP-NOW--> [Module 3 (ESP32-C3)] → Servo 3
                                              --ESP-NOW--> [Module 4 (ESP32-C3)] → Servo 4
