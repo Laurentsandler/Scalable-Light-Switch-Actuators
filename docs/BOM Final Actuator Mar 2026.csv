@@ -17,3 +17,4 @@ ID,Name,Designator,Footprint,Quantity,Manufacturer Part,Manufacturer,Supplier,Su
 16,TYPE-C-31-M-12,USBC1,USB-C_SMD-TYPE-C-31-M-12_1,1,TYPE-C-31-M-12,韩国韩荣,LCSC,C165948,0.183,16,USB-C_SMD-TYPE-C-31-M-12_1,LCSC,Extended Part,,https://item.szlcsc.com/datasheet/TYPE-C-31-M-12/177331.html
 17,1kΩ,R9,R0603,1,0603WAD1001T5E,"UNI-ROYAL(厚声)",LCSC,C51218,0.007,2,R0603,lcsc,Extended Part,1kΩ,https://lcsc.com/eda_search?q=C51218&type=1&ref=editor
 18,LED0805-R-RD,LED2,LED0805-R-RD,1,17-215UYC/S530-A3/TR8,"EVERLIGHT(亿光)",LCSC,C72036,0.054,2,LED0805-RD,lcsc,Extended Part,,https://lcsc.com/eda_search?q=C72036&type=1&ref=editor
+19,SG90 Micro Servo Motor 9G,,N/A,5,SG90,SopwMap,Amazon,B0DP3VG59G,11.99,3,,,,,https://www.amazon.com/dp/B0DP3VG59G
