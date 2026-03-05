@@ -14,6 +14,9 @@ I live in a rented house, so I cannot install smart light switches. The only sol
 
 The custom PCB was designed using EasyEDA. The PCB dimensions are 32 × 26 mm — fitting perfectly on the back of an SG90 servo.
 
+EasyEda project link:
+https://easyeda.com/editor#id=|93ad15a1b7dc47d78bf5fa35e29b968b|5e4b051ffabf4bad87d0927d44e92544|834b59119eae41c79e7f3501ccd5901a|6ec8a34cbfa545fb97d85c115d355580|78c27b5c97ff48638fb5b9d93af4b543|2bb35249ba30405cbe0a014a9d109027|e6663c2f617c42289e6e439fa6266942
+
 ### PCB Layout & 3D Renders
 
 <img width="705" height="845" alt="image" src="https://github.com/user-attachments/assets/02a7d980-9cd9-42ca-b489-f4b5d95e7b9a" />
